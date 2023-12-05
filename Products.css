@@ -1,0 +1,107 @@
+.product { 
+
+    border: 1px solid #ddd; 
+  
+    padding: 20px; 
+  
+    margin-bottom: 20px; 
+  
+    display: flex; 
+  
+    flex-direction: column; 
+  
+    justify-content: space-between; 
+  
+    align-items: center; 
+  
+    transition: transform 0.2s ease-in-out; 
+
+    background-color: #ffffff;
+  
+  } 
+  
+    
+  
+  .product:hover { 
+  
+    transform: scale(1.05); 
+  
+  } 
+  
+    
+  
+  .productInfo { 
+  
+    flex: 1; 
+  
+    text-align: center; 
+  
+  } 
+  
+    
+  
+  .productName { 
+  
+    font-size: 1.2em; 
+  
+    font-weight: bold; 
+  
+    margin: 10px 0; 
+
+    color: #0070d2;
+  
+  } 
+  
+    
+  
+  .priceWrapper { 
+  
+    display: flex; 
+  
+    align-items: center; 
+  
+    justify-content: center; 
+  
+  } 
+  
+    
+  
+  .price { 
+  
+    font-size: 1.1em; 
+  
+    margin: 0; 
+  
+  } 
+  
+    
+  
+  .discountPrice { 
+  
+    margin: 0; 
+  
+    color: #999; 
+  
+    text-decoration: line-through; 
+  
+    margin-left: 10px; 
+  
+  } 
+  
+    
+  
+  /* Add a border below the product name for a decorative touch */ 
+  
+  .productName::after { 
+  
+    content: ""; 
+  
+    display: block; 
+  
+    width: 50%; 
+  
+    margin: 5px auto; 
+  
+    border-bottom: 2px solid #0070d2; 
+  
+  } 
